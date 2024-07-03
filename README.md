@@ -1,6 +1,38 @@
 # matriklar
 
-## Bygdir
+## Leinkjur
+- https://kort.foroyakort.fo
+- https://tinglysing.fo/Property/Search
+- https://data.us.fo/matrikul.php?bygd={{Markatalsbygd_nummar}}&matr={{Matrikulnummar}}
+- https://sg.vs.fo/yvirlit/
+
+## Kolonnur
+- objectid,
+- mslink frá Microstation,
+- matr. nr.,
+- markatalsnr.,
+- markatalsbygd.,
+- matrikulslag,
+- avleitt matrikulslag,
+- lands matr. nr.,
+- eigarabólkur,
+- lýsing,
+- tinglýst vídd (m²),
+- herav vegur (m²),
+- adressa.,
+- veganavn.,
+- bygd,
+- postnr,
+- kommununr.,
+- kommuna,
+- matr. nr. við adressu,
+- x fotm,
+- y fotm,
+- eigari/eigarar,
+- shape.STArea(),
+- shape.STLength()
+
+## Markatalsbygdir
 
 | Nummar    | Bygd              |
 | --------- | ----------------- |
