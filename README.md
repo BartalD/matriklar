@@ -32,6 +32,32 @@
 - shape.STArea(),
 - shape.STLength()
 
+## Outfields
+- OBJECTID,
+- mslink,
+- cadastral_no,
+- cadastral_district_no,
+- cadastral_district,
+- cadaster_type,
+- cadaster_type_derived,
+- district_no__cadaster_no,
+- owner_group,
+- description,
+- registered_area,
+- road_part_area,
+- address,
+- street_name,
+- city,
+- zip,
+- municipality_no,
+- municipality,
+- cadaster__address,
+- x_fotm_centroid,
+- y_fotm_centroid,
+- cadastral_printout_url,
+- shape.STArea(),
+- shape.STLength()
+
 ## Markatalsbygdir
 
 | Nummar    | Bygd              |
