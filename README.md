@@ -15,6 +15,60 @@ A Python project that fetches Faroese land registry (matriklar) data from the pu
 
 ---
 
+## 🏘️ Markatalsbygdir
+
+| ID  | Location              | ID  | Location            |
+| --- | --------------------- | --- | ------------------- |
+| 11  | Sumba                 | 58  | Oyrar               |
+| 12  | Vágur                 | 59  | Norðskála           |
+| 13  | Nes – Vágur           | 60  | Eiði                |
+| 14  | Porkeri               | 61  | Gjógv               |
+| 15  | Hov                   | 62  | Funningur           |
+| 16  | Fámjin                | 63  | Skála               |
+| 17  | Øravík                | 64  | Elduvík             |
+| 18  | Trongisvágur          | 65  | Oyndarfjørður       |
+| 19  | Froðba                | 66  | Fuglafjørður        |
+| 20  | Hvalba                | 67  | Leirvík             |
+| 21  | Dímun                 | 68  | Norðragøta          |
+| 22  | Skúvoy                | 69  | Gøtugjógv           |
+| 23  | Skarvanes             | 70  | Syðrugøta           |
+| 24  | Dalur                 | 71  | Søldarfjørður       |
+| 25  | Húsavík               | 72  | Lambi               |
+| 26  | Skálavík              | 73  | Glyvrar             |
+| 27  | Sandur                | 74  | Toftir              |
+| 28  | Sandavágur            | 75  | Nes – Eysturoy      |
+| 29  | Miðvágur              | 76  | Syðradalur – Kalsoy |
+| 30  | Sørvágur              | 77  | Húsar               |
+| 31  | Bøur                  | 78  | Mikladalur          |
+| 32  | Gásadalur             | 79  | Trøllanes           |
+| 33  | Mykines               | 80  | Kunoy               |
+| 34  | Koltur                | 81  | Haraldssund         |
+| 35  | Hest                  | 82  | Skarð               |
+| 36  | Nólsoy                | 83  | Norðoyri            |
+| 37  | Kirkjubøur            | 84  | Klaksvík            |
+| 38  | Velbastaður           | 85  | Strond              |
+| 39  | Syðradalur – Streymoy | 86  | Skálatoftir         |
+| 40  | Norðradalur           | 87  | Múli                |
+| 41  | Skælingur             | 88  | Depil               |
+| 42  | Leynar                | 89  | Norðtoftir          |
+| 43  | Kvívík                | 90  | Árnafjørður         |
+| 44  | Vestmanna             | 91  | Hvannasund          |
+| 45  | Saksun                | 92  | Viðareiði           |
+| 46  | Tjørnuvík             | 93  | Svínoy              |
+| 47  | Haldarsvík            | 94  | Kirkja              |
+| 48  | Streymnes             | 95  | Hattarvík           |
+| 49  | Hvalvík               |     |                     |
+| 50  | Hósvík                |     |                     |
+| 51  | Kollafjørður          |     |                     |
+| 52  | Kaldbak               |     |                     |
+| 53  | Sund                  |     |                     |
+| 54  | Hoyvík                |     |                     |
+| 55  | Tórshavn              |     |                     |
+| 56  | Strendur              |     |                     |
+| 57  | Selatrað              |     |                     |
+
+---
+
 ## 🚀 Quickstart
 
 ### Prerequisites
