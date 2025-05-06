@@ -41,9 +41,8 @@ cd matriklar
 # Create and activate virtual environment
 uv venv
 
-# Install dependencies
-uv pip install -r requirements.txt  # if you have a lockfile, or...
-uv add requests selenium webdriver-manager
+# Install dependencies from pyproject.toml
+uv pip install .
 ```
 
 ## ▶️ Usage
