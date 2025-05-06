@@ -12,3 +12,4 @@ dependencies = [
     "selenium>=4.32.0",
     "webdriver-manager>=4.0.2",
 ]
+py-modules = ["main", "data_fetcher", "owner_scraper"]

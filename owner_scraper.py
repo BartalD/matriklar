@@ -12,7 +12,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 def scrape_owner_data():
     """
-    
     The function:
     1. Reads parcel data from matriklar.csv
     2. For each parcel, visits its detail page and extracts owner information
