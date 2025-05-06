@@ -8,7 +8,7 @@ A Python project that fetches Faroese land registry (matriklar) data from the pu
 
 - Fetches cadastral parcel data from [https://gis.us.fo](https://gis.us.fo)
 - Parses and stores parcel data in `matriklar.csv`
-- Uses Selenium to extract detailed owner info
+- Uses Selenium to extract detailed owner information
 - Produces a full `matriklar_with_owners.csv` dataset
 - CLI options to run individual steps
 - Fully managed Python environment via `uv`
@@ -17,26 +17,61 @@ A Python project that fetches Faroese land registry (matriklar) data from the pu
 
 ## 🚀 Quickstart
 
-### 1. Install [uv](https://github.com/astral-sh/uv)
+### Prerequisites
 
-`pipx install uv`
+- Python 3.8 or higher
+- Git
+- pipx (for installing uv)
 
-### 2. Set up the project
+### 1. Install uv
 
+First, install `uv` using pipx:
+
+```bash
+pipx install uv
 ```
-git clone https://github.com/YOUR_USERNAME/matriklar.git
+
+### 2. Clone and Set Up the Project
+
+```bash
+# Clone the repository
+git clone https://github.com/BartalD/matriklar.git
 cd matriklar
+
+# Create and activate virtual environment
 uv venv
+
+# Install dependencies
 uv pip install -r requirements.txt  # if you have a lockfile, or...
 uv add requests selenium webdriver-manager
 ```
 
 ## ▶️ Usage
 
-`uv run -- python main.py [--step fetch|scrape|all]`
+The project can be run in different modes depending on your needs:
 
-### Examples:
+```bash
+# Run the complete pipeline (fetch and scrape)
+uv run -- python main.py
 
-- `uv run -- python main.py`
-- `uv run -- python main.py --step fetch`
-- `uv run -- python main.py --step scrape`
+# Only fetch the cadastral data
+uv run -- python main.py --step fetch
+
+# Only scrape owner information
+uv run -- python main.py --step scrape
+```
+
+### Output Files
+
+- `matriklar.csv`: Contains the raw cadastral data
+- `matriklar_with_owners.csv`: Contains the enriched data with owner information
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
