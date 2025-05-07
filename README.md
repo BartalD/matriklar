@@ -22,6 +22,7 @@ A Python project that fetches Faroese land registry (matriklar) data from the pu
 - Python 3.8 or higher
 - Git
 - pipx (for installing uv)
+- Google Chrome
 
 ### 1. Install uv
 
